@@ -44,4 +44,10 @@ public class Serie  extends Titulo {
         System.out.println("Tiempo total de la serie: " + getTiempoDeDuracionEnMinutos() + " minutos");
     }
 
+    public void calcularTiempoADedicar(int horasPorDia){
+        double diasViendoParaTerminarLaSerie = (getTiempoDeDuracionEnMinutos() / 60) / horasPorDia;
+        System.out.println("\n**** Calculadora ****");
+        System.out.println("Viendo " + horasPorDia + " horas por dia de la serie " + getNombre() + " tardarias " + diasViendoParaTerminarLaSerie + " días en ver toda la serie.");
+    }
+
 }

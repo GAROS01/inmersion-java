@@ -14,6 +14,7 @@ public class Principal {
                     Bienvenido(a) a Screenmatch
                     1) Registrar nueva pelicula
                     2) Registrar nueva serie
+                    3) Calcular el tiempo para ver una serie
                     
                     4) Salir
                     """;
@@ -58,6 +59,28 @@ public class Principal {
                     serieUsuario.setEpisodiosPorTemporada(episodiosPorTemporada);
                     serieUsuario.setDuracionEnMinutosPorEpisodio(duracionEnMinutosPorEpisodio);
                     serieUsuario.muestraFichaTecnica();
+                    break;
+                case 3:
+                    System.out.println("Ingrese el nombre de la serie");
+                    nombre = teclado.nextLine();
+                    System.out.println("Ingres el numero de temporadas");
+                    temporadas = teclado.nextInt();
+                    teclado.nextLine();
+                    System.out.println("Ingrese el numero de episodios por temporada");
+                    episodiosPorTemporada = teclado.nextInt();
+                    teclado.nextLine();
+                    System.out.println("Ingrese la duracion en minutos por episodio");
+                    duracionEnMinutosPorEpisodio = teclado.nextInt();
+                    teclado.nextLine();
+                    System.out.println("Ingresa las horas al dia que le dedicas a ver la serie");
+                    int horasPorDia = teclado.nextInt();
+                    teclado.nextLine();
+                    Serie calculadora = new Serie();
+                    calculadora.setNombre(nombre);
+                    calculadora.setTemporadas(temporadas);
+                    calculadora.setEpisodiosPorTemporada(episodiosPorTemporada);
+                    calculadora.setDuracionEnMinutosPorEpisodio(duracionEnMinutosPorEpisodio);
+                    calculadora.calcularTiempoADedicar(horasPorDia);
                     break;
                 case 4:
                     System.out.println("Saliendo del programa");
