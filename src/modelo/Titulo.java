@@ -1,6 +1,6 @@
 package modelo;
 
-public class Titulo {
+public abstract class Titulo {
     private String nombre;
     private int fechaDeLanzamiento;
     private double evaluacion;
@@ -58,5 +58,7 @@ public class Titulo {
         System.out.println("Nombre del título: " + nombre);
         System.out.println("Fecha de Lanzamiento: " + fechaDeLanzamiento);
         System.out.println("Tiempo de duración: " + getTiempoDeDuracionEnMinutos() + " minutos");
+        System.out.println();
     }
+
 }

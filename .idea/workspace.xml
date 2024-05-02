@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="757ad5ba-0283-4515-b40e-6224db758d4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/Pelicula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/Titulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Titulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
